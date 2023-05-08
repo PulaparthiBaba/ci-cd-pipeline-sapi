@@ -54,8 +54,8 @@
 					<!-- 	<deploymentTimeout>10000000</deploymentTimeout>  -->
 						<properties>
 							<key>value</key>
-							<!-- <anypoint.platform.client_id>1b085b42ad9f4102a7a52fcc61e0b097</anypoint.platform.client_id>
-              				<anypoint.platform.client_secret>6E4d36ee46a84DFb8C3CE41e1b4DED1f</anypoint.platform.client_secret> -->
+							 <anypoint.platform.client_id>1b085b42ad9f4102a7a52fcc61e0b097</anypoint.platform.client_id>
+              				<anypoint.platform.client_secret>6E4d36ee46a84DFb8C3CE41e1b4DED1f</anypoint.platform.client_secret>
 						</properties>
 					</cloudHubDeployment>
 				</configuration>
