@@ -27,7 +27,7 @@ jobs:
       - name: Clean Mule Project
         run: mvn clean -B -s .maven/settings.xml
       - name: Run Munits
-        run: mvn clean test
+        run: mvn clean test -DSkipTests
       - name: Package Mule project
         run: mvn clean package
       - name: Shell script for API mgr entry

@@ -14,7 +14,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.4.0-20220824</app.runtime>
-		<mule.maven.plugin.version>3.8.4</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.6.3</mule.maven.plugin.version>
 	</properties>
 
 	<build>
@@ -42,20 +42,20 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
-						<username>Baba_pulaparthi1</username>
+						<username>Baba-pulaparthi1</username>
 						<password>Pulaparthi@789</password>
-						<applicationName>ci-cd-pipeline-sapi</applicationName>
+						<applicationName>ci-cd-pipeline-sapi1</applicationName>
 						<environment>Sandbox</environment>
 						<region>us-east-2</region>
 						<workers>1</workers>
 						<objectStoreV2>true</objectStoreV2>
-						<workerType>MICRO</workerType>
+						<workerType>Micro</workerType>
 						<businessGroup>a53ca6a9-0248-438b-85e4-016cb8263934</businessGroup>
 					<!-- 	<deploymentTimeout>10000000</deploymentTimeout>  -->
 						<properties>
 							<key>value</key>
-							<anypoint.platform.client_id>1b085b42ad9f4102a7a52fcc61e0b097</anypoint.platform.client_id>
-              				<anypoint.platform.client_secret>6E4d36ee46a84DFb8C3CE41e1b4DED1f</anypoint.platform.client_secret>
+							<!-- <anypoint.platform.client_id>1b085b42ad9f4102a7a52fcc61e0b097</anypoint.platform.client_id>
+              				<anypoint.platform.client_secret>6E4d36ee46a84DFb8C3CE41e1b4DED1f</anypoint.platform.client_secret> -->
 						</properties>
 					</cloudHubDeployment>
 				</configuration>
