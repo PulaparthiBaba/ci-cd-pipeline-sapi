@@ -8,7 +8,7 @@
         </server>
         <server>
             <id>anypoint-exchange-v3</id>
-            <username>Baba-pulaparthi1</username>
+            <username>Baba_pulaparthi1</username>
             <password>Pulaparthi@789</password>
         </server>
     </servers>
