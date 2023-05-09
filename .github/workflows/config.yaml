@@ -1,5 +1,5 @@
-# This is a basic workflow to help you get started with Actions
-name: Original flows
+# This is a basic workflow to help you get started with Actionsws
+name: Original flows1
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # Checks-out your repository under $GITHUB_WORKSPACEs, so your job can access it
       - uses: actions/checkout@v3
       - name: Setup Java Environment
         uses: actions/setup-java@v3
@@ -33,4 +33,4 @@ jobs:
       - name: Shell script for API mgr entry
         run: sh token.sh
       - name : Deploy the code
-        run: mvn clean deploy -DmuleDeploy -B -s .maven/settings.xml
+        run: mvn -e clean deploy -DmuleDeploy -B -s .maven/settings.xml
