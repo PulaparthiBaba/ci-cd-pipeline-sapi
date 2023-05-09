@@ -6,7 +6,7 @@ http://www.mulesoft.org/schema/mule/api-gateway http://www.mulesoft.org/schema/m
     </http:listener-config>
     <apikit:config name="ci-cd-pipeline-sapi-config" api="resource::a53ca6a9-0248-438b-85e4-016cb8263934:ci-cd-pipeline-sapi:1.0.0:raml:zip:ci-cd-pipeline-sapi.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
     <api-gateway:autodiscovery apiId="${api.id}" ignoreBasePath="true" doc:name="API Autodiscovery" doc:id="0c9aff99-e317-4890-b2b0-a80e990a8ec3" flowRef="ci-cd-pipeline-sapi-main" />
-	<configuration-properties doc:name="Configuration properties" doc:id="e9097411-0dfe-48c6-915b-4347ad540629" file="config/${mule.env}" />
+	<configuration-properties doc:name="Configuration properties" doc:id="e9097411-0dfe-48c6-915b-4347ad540629" file="config/${mule.env}.yaml" />
 	<global-property doc:name="Global Property" doc:id="779959a8-d63d-43e8-b43d-609bb23e6da4" name="mule.env" value="dev" />
 	<flow name="ci-cd-pipeline-sapi-main">
         <http:listener config-ref="ci-cd-pipeline-sapi-httpListenerConfig" path="/api/*">
