@@ -33,4 +33,4 @@ jobs:
       - name: Shell script for API mgr entry
         run: sh token.sh
       - name : Deploy the code
-        run: mvn -e clean deploy -DmuleDeploy -B -s .maven/settings.xml
+        run: mvn -X clean deploy -DmuleDeploy -B -s .maven/settings.xml
